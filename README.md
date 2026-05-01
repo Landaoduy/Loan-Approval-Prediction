@@ -66,7 +66,7 @@ ADASYN was used for the final XGBoost model; RUS for the final Random Forest mod
 
 **1. Class Distribution**
 The target variable `LoanApproved` was checked for imbalance using value counts and a pie chart, revealing a meaningful skew between approved and rejected applications.
-<img width="579" height="643" alt="Screenshot 2025-10-28 211558" src="https://github.com/user-attachments/assets/de5988c4-d15f-4b62-88be-3032ce0fb687" />
+<img width="200" height="400" alt="Screenshot 2025-10-28 211558" src="https://github.com/user-attachments/assets/de5988c4-d15f-4b62-88be-3032ce0fb687" />
 
 **2. Categorical Features vs. Loan Approval**
 Count plots comparing `EmploymentStatus`, `MaritalStatus`, `EducationLevel`, `HomeOwnershipStatus`, and `LoanPurpose` against approval status revealed which applicant segments see higher approval rates.
