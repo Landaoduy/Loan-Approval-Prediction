@@ -148,16 +148,14 @@ After tuning, a threshold sweep (0.30 to 0.80, step 0.05) was applied to each mo
 
 | Model | Accuracy | Precision | Recall | F1-score |
 |-------|----------|-----------|--------|----------|
-| LR (Baseline) | — | — | — | — |
-| KNN (Baseline) | — | — | — | — |
-| KNN (Tuned + Threshold) | — | — | — | — |
-| LR (Tuned + Threshold) | — | — | — | — |
-| Random Forest (Tuned) | — | — | — | — |
-| **XGBoost (Tuned + Threshold)** | **—** | **—** | **—** | **—** |
+| KNN (Tuned + Threshold) | 0.836 | 0.295 | 0.708 | 0.416 |
+| LR (Tuned + Threshold) | 0.850 | 0.354 | 0.991 | 0.522 |
+| Random Forest (Tuned) | 0.836 | 0.370 | 0.960 | 0.491 |
+| **XGBoost (Tuned + Threshold)** | **0.850** | **0.350** | **0.957** | **0.552** |
 
 ---
 
-## 🔍 Model Interpretation
+## Model Interpretation
 
 ### Global Explanation — SHAP Feature Importance
 SHAP (SHapley Additive exPlanations) was applied to the tuned XGBoost model to understand which features drive predictions across the entire dataset.
