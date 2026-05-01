@@ -155,8 +155,6 @@ After tuning, a threshold sweep (0.30 to 0.80, step 0.05) was applied to each mo
 | Random Forest (Tuned) | — | — | — | — |
 | **XGBoost (Tuned + Threshold)** | **—** | **—** | **—** | **—** |
 
-> 📝 Fill in your actual metric values from the notebook outputs. The full comparison chart is in `results/` and in the notebook under **Sections V–VII**.
-
 ---
 
 ## 🔍 Model Interpretation
