@@ -2,10 +2,6 @@
 
 # Loan Approval Prediction
 
-> Predicting loan approval outcomes using machine learning — with a Streamlit chatbot demo powered by XGBoost and SHAP explainability.
-
----
-
 ## Business Problem 
 
 Loan approval decisions have a direct financial and social impact on both lenders and borrowers. Approving a risky loan can lead to significant losses; rejecting a creditworthy applicant means lost revenue and poor customer experience. Traditional rule-based systems are rigid and slow to adapt. This project builds a data-driven predictive model that helps financial institutions make faster, more consistent, and explainable loan approval decisions based on applicant financial profiles.
@@ -76,6 +72,9 @@ Count plots comparing `EmploymentStatus`, `MaritalStatus`, `EducationLevel`, `Ho
 
 **3. Pairplot of Key Financial Features**
 A pairplot across `CreditScore`, `AnnualIncome`, `LoanAmount`, and `RiskScore` (colored by loan approval) showed clear separation patterns, especially around `RiskScore` and `CreditScore`.
+
+<img width="1124" height="1021" alt="image" src="https://github.com/user-attachments/assets/94cf20ce-3c00-4e8d-9762-bfa5d2bdbf10" />
+
 
 **4. Correlation Heatmap**
 A heatmap of 12 numerical features (`Age`, `AnnualIncome`, `CreditScore`, `LoanAmount`, `RiskScore`, `InterestRate`, `NetWorth`, etc.) identified feature relationships and multicollinearity — informing feature selection for modeling.
